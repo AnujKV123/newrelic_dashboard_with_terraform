@@ -21,8 +21,8 @@ resource "newrelic_one_dashboard" "newDashboard" {
 
     widget_bar {
       title  = "${lookup(var.dashboardData[count.index], "widget2title")}"
-      row    = 1
-      column = 7
+      row    = 2
+      column = 1
       width  = 6
       height = 3
 
